@@ -4,21 +4,7 @@ import Home from "./pages/home";
 import Discover from "./pages/discover";
 import Footer from "./components/footer/footer";
 
-// import '@coinbase/onchainkit/styles.css';
-// import { Avatar, Identity, Name, Badge, Address } from '@coinbase/onchainkit/identity';
-// import { WalletComponents } from './ConnectButton';
 
-// import { 
-//   ConnectWallet, 
-//   Wallet, 
-//   WalletDropdown, 
-//   WalletDropdownLink, 
-//   WalletDropdownDisconnect, 
-// } from '@coinbase/onchainkit/wallet'; 
-// import {
-//   EthBalance
-// } from '@coinbase/onchainkit/identity';
-// import { color } from '@coinbase/onchainkit/theme';
  
 
 function App() {
