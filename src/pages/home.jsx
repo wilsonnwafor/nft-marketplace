@@ -18,7 +18,7 @@ const Home = () => {
     <>
       <div className="w-full h-screen grid place-items-center">
         <div className="w-80% h-3/4 absolute lg:top-20 md:top-10">
-          <img className="w-full h-full " src="/image 8.png" alt="" />
+          <img className="w-full h-full " src="./image 8.png" alt="" />
         </div>
         <div className="lg:w-6/12 md:w-8/12 w-11/12 h-2/4 backdrop-blur-[1px] bg-white/40 rounded-xl grid place-items-center p-8">
           <p className="text-4xl font-bold text-center">Your Gateway to Rare and Authentic NFTs</p>
@@ -64,14 +64,14 @@ const Home = () => {
             <img className="absolute left-0 w-full scale-110" src="/Rectangle 18225.png" alt="" />
             <div className="flex justify-between items-center p-4 backdrop-blur-[1px] bg-white/40 rounded-xl w-full h-full">
             <div className="w-2/4 h-full flex flex-col items-start justify-around">
-              <img src="/Vector2.png" alt="" />
+              <img src="./Vector2.png" alt="" />
               <p className="text-nowrap">1234 5678 9123 4567</p>
               <p>10/24</p>
               <p className="text-nowrap">Obumneme w. Nwafor</p>
             </div>
             <div className="w-2/4 h-full flex flex-col items-end justify-between">
-              <img src="/Vector.png" alt="" />
-              <img src="/Vector3.png" alt="" />
+              <img src="./Vector.png" alt="" />
+              <img src="./Vector3.png" alt="" />
             </div>
           </div>
           </div>
@@ -79,10 +79,10 @@ const Home = () => {
       </div>
       <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-16 gap-4 place-items-center pt-12">
         <div className="grid grid-cols-2 px-4">
-          <img className="w-[15rem]" src="/download (7).png" alt="" />
-          <img className="w-[15rem]" src="/download (14).png" alt="" />
-          <img className="w-[15rem]" src="/download (16).png" alt="" />
-          <img className="w-[15rem]" src="/download (15).png" alt="" />
+          <img className="w-[15rem]" src="./download (7).png" alt="" />
+          <img className="w-[15rem]" src="./download (14).png" alt="" />
+          <img className="w-[15rem]" src="./download (16).png" alt="" />
+          <img className="w-[15rem]" src="./download (15).png" alt="" />
         </div>
         <div className="grid grid-cols-1 place-items-end md:px-16 px-4">
           <p className="text-4xl font-semibold mb-5">ABOUT US</p>
