@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <div className="grid place-items-center mt-96 relative h-20 border-b border-gray-400">
-        <img className="absolute top-0 h-full w-full" src="/Vector 4.png" alt="" />
+        <img className="absolute top-0 h-full w-full" src="./Vector 4.png" alt="" />
         <div>
           <p className="md:text-4xl text-xl font-semibold text-center">Subscribe To Get Updates</p>
           <p className="text-center max-sm:text-sm">Get the latest news, exclusive offers, and event updates straight to your inbox</p>
@@ -19,7 +19,7 @@ const Footer = () => {
       <div className="grid md:grid-cols-3 grid-col-1 py-12 place-items-center">
         <div className="">
           <div className="flex items-center justify-center mb-6">
-            <img className="h-12" src="Vector.png" alt="" />
+            <img className="h-12" src="./Vector.png" alt="" />
             <p className="border-r border-gray-400 px-2 text-2xl">NIFTOPIA</p>
           </div>
           <p className="text-center text-sm">Copy Right Project. Ads right reserves</p>

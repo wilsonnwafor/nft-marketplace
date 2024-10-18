@@ -16,8 +16,8 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/discover" element={<Discover />}/>
+        <Route path="/nft-marketplace" element={<Home />}/>
+        <Route path="/nft-marketplace/discover" element={<Discover />}/>
       </Routes>
       <Footer />
 
