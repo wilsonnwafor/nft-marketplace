@@ -24,6 +24,8 @@ jobs:
 
       - name: Build project
         run: npm run build
+        env:
+          VITE_PUBLIC_ONCHAINKIT_API_KEY: ${{ secrets.ONCHAINKIT_API_KEY }}
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3

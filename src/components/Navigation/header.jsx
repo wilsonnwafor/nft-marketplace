@@ -77,9 +77,9 @@ const Header = () => {
             <Input className="text-gray-500 border-0 bg-transparent ring-0 focus-visible:ring-offset-0 focus-visible:ring-0" type="text" placeholder="Search..."/>
           </div>
           <ul className={`lg:flex md:gap-3 text-white grid place-items-center`}>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/discover">Discover</Link></li>
+            <li><Link to="/nft-marketplace">Home</Link></li>
+            <li><Link to="/nft-marketplace/about">About</Link></li>
+            <li><Link to="/nft-marketplace/discover">Discover</Link></li>
             {/* <li><Link to="/login">Login</Link></li>  */}
           </ul>
         </div>
