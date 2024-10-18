@@ -9,28 +9,28 @@ const Nft = () => {
       "user": "johnny",
       "name": "yellow painting",
       "bid": 0.0014,
-      "image": "./collection style.png"
+      "image": "/collection style.png"
     },
     {
       "id": 2,
       "user": "wilson",
       "name": "mask",
       "bid": 0.0016,
-      "image": "./covermask.png"
+      "image": "/covermask.png"
     },
     {
       "id": 3,
       "user": "success",
       "name": "painting",
       "bid": 0.072,
-      "image": "./Frame 3473960.png"
+      "image": "/Frame 3473960.png"
     },
     {
       "id": 4,
       "user": "lawson",
       "name": "acoustic",
       "bid": 0.1,
-      "image": "./download (12).png"
+      "image": "/download (12).png"
     },
   ]
 
