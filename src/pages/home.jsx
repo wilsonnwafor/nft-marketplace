@@ -41,7 +41,7 @@ const Home = () => {
         <p className="text-lg text-center mb-8">support for wallets like Metamask, Coinbase wallet , etc.</p>
         <div className="grid lg:grid-cols-2 grid-cols-1 place-items-center gap-10"> 
           <div className="w-2/4 grid place-items-center gap-2 border border-gray-400 py-4 rounded-lg shadow-lg shadow-white">
-            <img src="/Vector.png" alt="" />
+            <img src="./Vector.png" alt="" />
             <p className="border-b border-gray-400">Connect to Hackathon</p>
             <div className="flex justify-end text-white">
               <Wallet>
@@ -61,7 +61,7 @@ const Home = () => {
             </div>
           </div>
           <div className="md:h-[15rem] h-[12rem] md:w-8/12 w-11/12 relative">
-            <img className="absolute left-0 w-full scale-110" src="/Rectangle 18225.png" alt="" />
+            <img className="absolute left-0 w-full scale-110" src="./Rectangle 18225.png" alt="" />
             <div className="flex justify-between items-center p-4 backdrop-blur-[1px] bg-white/40 rounded-xl w-full h-full">
             <div className="w-2/4 h-full flex flex-col items-start justify-around">
               <img src="./Vector2.png" alt="" />
