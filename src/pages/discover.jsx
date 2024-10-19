@@ -119,7 +119,7 @@ const Discover = () => {
   };
 
   return (
-    <div className="mt-16 px-8">
+    <div className="mt-16 md:px-8 px-2">
       {/* <Identity
         address="0x1AB850C0FFA3fe879B501fca9127f29d03464F46"
         schemaId="0xf8b05c79f090979bf4a80270aba232dff11a10d9ca55c4f88de95317970f0de9"
@@ -223,15 +223,15 @@ const Discover = () => {
           </PopoverContent>
         </Popover> 
       </div>
-      <Table>
-        <TableHeader>
+      <Table className='w-full scroll-mx-0'>
+        <TableHeader className='w-10/12'>
           <TableRow>
-            <TableHead className="w-[100px]">#</TableHead>
-            <TableHead>Collection</TableHead>
+            <TableHead className="md:w-[100px]">#</TableHead>
+            <TableHead className='w-fit'>Collection</TableHead>
             <TableHead>Volume</TableHead>
             <TableHead>Change</TableHead>
-            <TableHead>Floor Price</TableHead>
-            <TableHead className="text-right">Sales</TableHead>
+            <TableHead className='text-nowrap'>Floor Price</TableHead>
+            <TableHead className="md:text-right">Sales</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -242,15 +242,15 @@ const Discover = () => {
                   {index + 1}
                 </TableCell>
                 <TableCell>
-                <div className='flex items-center gap-6'>
+                <div className='flex items-center md:gap-6 gap-1 max-sm:w-[15px]'>
                   <img className='w-[3rem] rounded' src={`${nft.image}`} alt="" />
-                  <p>{nft.name}</p>
+                  <p className='text-nowrap max-sm:text-xs'>{nft.name}</p>
                 </div>
                 </TableCell>
-                <TableCell className="text-left"> - </TableCell>
-                <TableCell className="text-left"> - </TableCell>
-                <TableCell className="text-left">{nft.bid} ETH</TableCell>
-                <TableCell className="text-right">$250.00</TableCell>
+                <TableCell className="md:text-left"> - </TableCell>
+                <TableCell className="md:text-left"> - </TableCell>
+                <TableCell className="text-left max-sm:text-xs">{nft.bid} ETH</TableCell>
+                <TableCell className="text-right max-sm:text-xs">$250.00</TableCell>
               </TableRow>
             )) : <p>No data available</p>
           }

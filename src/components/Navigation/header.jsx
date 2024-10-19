@@ -71,26 +71,18 @@ const Header = () => {
           </svg>
           <p className="text-xl md:text-3xl font-semibold text-white hidden md:block">NIFTOPIA</p>
         </div>
-        <div className={`lg:flex gap-3 ${menu ? " bg-slate-400 w-full h-screen absolute top-0 px-16 py-8 flex flex-col gap-8 z-50" : "hidden"}`}>
+        <div className={`lg:flex gap-3 ${menu ? " bg-slate-400 w-full h-[50vh] absolute top-0 px-16 py-8 flex flex-col gap-8 z-50" : "hidden"}`}>
           <div className={`flex items-center border border-gray-500 ${menu ? "bg-white": ""} px-4 rounded-3xl`}>
             <FaSearch className="text-gray-500"/>
             <Input className="text-gray-500 border-0 bg-transparent ring-0 focus-visible:ring-offset-0 focus-visible:ring-0" type="text" placeholder="Search..."/>
           </div>
           <ul className={`lg:flex md:gap-3 text-white grid place-items-center`}>
-            <li><Link to="/nft-marketplace">Home</Link></li>
-            <li><Link to="/nft-marketplace/about">About</Link></li>
-            <li><Link to="/nft-marketplace/discover">Discover</Link></li>
+            <li><Link to="/nft-marketplace" onClick={handleClick}>Home</Link></li>
+            <li><Link to="/nft-marketplace/about" onClick={handleClick}>About</Link></li>
+            <li><Link to="/nft-marketplace/discover" onClick={handleClick}>Discover</Link></li>
             {/* <li><Link to="/login">Login</Link></li>  */}
           </ul>
         </div>
-        
-        {/* <div>
-          <Link to="/login">
-            <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M5.29999 20.8C6.43332 19.9334 7.69999 19.25 9.09999 18.75C10.5 18.25 11.9667 18 13.5 18C15.0333 18 16.5 18.25 17.9 18.75C19.3 19.25 20.5667 19.9334 21.7 20.8C22.4778 19.8889 23.0833 18.8556 23.5167 17.7C23.95 16.5445 24.1667 15.3111 24.1667 14C24.1667 11.0445 23.1278 8.5278 21.05 6.45002C18.9722 4.37224 16.4555 3.33335 13.5 3.33335C10.5444 3.33335 8.02777 4.37224 5.94999 6.45002C3.87221 8.5278 2.83332 11.0445 2.83332 14C2.83332 15.3111 3.04999 16.5445 3.48332 17.7C3.91666 18.8556 4.52221 19.8889 5.29999 20.8ZM13.5 15.3334C12.1889 15.3334 11.0833 14.8834 10.1833 13.9834C9.28332 13.0834 8.83332 11.9778 8.83332 10.6667C8.83332 9.35558 9.28332 8.25002 10.1833 7.35002C11.0833 6.45002 12.1889 6.00002 13.5 6.00002C14.8111 6.00002 15.9167 6.45002 16.8167 7.35002C17.7167 8.25002 18.1667 9.35558 18.1667 10.6667C18.1667 11.9778 17.7167 13.0834 16.8167 13.9834C15.9167 14.8834 14.8111 15.3334 13.5 15.3334ZM13.5 27.3334C11.6555 27.3334 9.92221 26.9834 8.29999 26.2834C6.67777 25.5834 5.26666 24.6334 4.06666 23.4334C2.86666 22.2334 1.91666 20.8222 1.21666 19.2C0.516656 17.5778 0.166656 15.8445 0.166656 14C0.166656 12.1556 0.516656 10.4222 1.21666 8.80002C1.91666 7.1778 2.86666 5.76669 4.06666 4.56669C5.26666 3.36669 6.67777 2.41669 8.29999 1.71669C9.92221 1.01669 11.6555 0.666687 13.5 0.666687C15.3444 0.666687 17.0778 1.01669 18.7 1.71669C20.3222 2.41669 21.7333 3.36669 22.9333 4.56669C24.1333 5.76669 25.0833 7.1778 25.7833 8.80002C26.4833 10.4222 26.8333 12.1556 26.8333 14C26.8333 15.8445 26.4833 17.5778 25.7833 19.2C25.0833 20.8222 24.1333 22.2334 22.9333 23.4334C21.7333 24.6334 20.3222 25.5834 18.7 26.2834C17.0778 26.9834 15.3444 27.3334 13.5 27.3334Z" fill="#F4F4F9"/>
-            </svg>
-          </Link>
-        </div> */}
         <div className="flex items-center gap-4">
           {account? 
           (<div className="flex gap-4 items-center">
